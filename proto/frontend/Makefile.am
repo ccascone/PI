@@ -23,6 +23,7 @@ $(top_builddir)/libpiproto.la \
 $(top_builddir)/../src/libpip4info.la
 
 nobase_include_HEADERS = \
-PI/frontends/proto/device_mgr.h
+PI/frontends/proto/device_mgr.h \
+PI/frontends/proto/config_mgr.h
 
 lib_LTLIBRARIES = libpifeproto.la
