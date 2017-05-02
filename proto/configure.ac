@@ -85,6 +85,8 @@ case "${host_os}" in
         ;;
 esac
 
+AC_PROG_SED
+
 # Generate makefiles
 AC_CONFIG_FILES([Makefile
                  p4info/Makefile
